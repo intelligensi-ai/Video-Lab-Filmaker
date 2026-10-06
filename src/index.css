@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    background-color: #EEF3F2;
+    color: #192C2B;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Custom Film Editor Scrollbars - Crisp Teal & Ice Grey */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(13, 148, 136, 0.04);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD5D1;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #99B2AC;
+}
+
+/* Dark mode player scrollbars */
+.dark-scroll::-webkit-scrollbar-track {
+  background: #111818;
+}
+
+.dark-scroll::-webkit-scrollbar-thumb {
+  background: #233534;
+}
+
+.dark-scroll::-webkit-scrollbar-thumb:hover {
+  background: #36504F;
+}

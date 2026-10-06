@@ -1,0 +1,6 @@
+{
+  "name": "Intelligensi.ai Video Lab — Filmmaker",
+  "description": "Professional story-to-screen filmmaker workstation with Assistant Director story proposals, structured script & shot editing, multi-take comparison, and timeline playback.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
